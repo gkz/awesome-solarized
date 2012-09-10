@@ -9,7 +9,8 @@
 -- {{{ Main
 theme = {}
 theme.default_themes_path = "/usr/share/awesome/themes"
-theme.wallpaper_cmd = { "awsetbg "..theme.default_themes_path.."/zenburn/zenburn-background.png" }
+--theme.wallpaper_cmd = { "awsetbg "..theme.default_themes_path.."/zenburn/zenburn-background.png" }
+theme.wallpaper_cmd = { "awsetbg -f .config/awesome/themes/awesome-solarized/solarized_bg.png" }
 theme.colors = {}
 theme.colors.base3   = "#002b36"
 theme.colors.base2   = "#073642"
@@ -30,7 +31,7 @@ theme.colors.green   = "#859900"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Ubuntu Mono 11"
+theme.font      = "DejaVu Sans Mono 9"
 
 -- {{{ Colors
 theme.fg_normal  = theme.colors.base02
